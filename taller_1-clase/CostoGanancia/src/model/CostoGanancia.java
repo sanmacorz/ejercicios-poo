@@ -1,5 +1,3 @@
-// El dueño de una papelería desea un programa que le indique el precio de venta de un artículo dado
-
 package model;
 
 import javax.swing.JOptionPane;
@@ -9,19 +7,20 @@ public class CostoGanancia {
         int precioTotal;
         int precioCosto;
         int ganancia = 0;
-        precioCosto = Integer.parseInt(JOptionPane.showInputDialog("Digite el número: "));
+
+        precioCosto = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el precio del producto: "));
+
         if (precioCosto < 3000) {
             ganancia = (int) (precioCosto * 0.15);
-        } else if (precioCosto < 6000 && precioCosto > 3000) {
+        } else if (precioCosto <= 6000 && precioCosto >= 3000) {
             ganancia = 500;
         } else if (precioCosto > 6000) {
             ganancia = (int) (precioCosto * 0.25);
         }
+
         precioTotal = precioCosto + ganancia;
         JOptionPane.showMessageDialog(null,
-                "La ganancia del producto es " + ganancia + " y el precio total es " + precioTotal + "!",
-                "Venta de artículo",
-                JOptionPane.INFORMATION_MESSAGE);
+                "La ganancia por el producto es de $" + ganancia + " y el precio total es de $" + precioTotal + "!");
         System.exit(0);
     }
 }

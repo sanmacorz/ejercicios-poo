@@ -40,6 +40,8 @@ public class NumeroTexto {
             case 9:
                 numeroTexto = "nueve";
                 break;
+            default:
+                numeroTexto = "No es un número de un dígito";
         }
 
         JOptionPane.showMessageDialog(null, "El número " + numero + " se lee como: " + numeroTexto + "!");
