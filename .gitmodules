@@ -1,0 +1,10 @@
+[submodule "mvc1_mayor_3_enteros"]
+	path = mvc1_mayor_3_enteros
+        url = https://github.com/sanmacorz/mvc1_mayor_3_enteros
+        branch = main
+
+[submodule "parcial1_poo_2022-i-sanmacorz"]
+	path = parcial1_poo_2022-i-sanmacorz
+        url = https://github.com/sanmacorz/mvc1_mayor_3_enteros
+        branch = main
+
