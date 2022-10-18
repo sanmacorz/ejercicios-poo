@@ -9,16 +9,16 @@ public class VentanaPrincipal extends JFrame {
 
     public VentanaPrincipal() {
         miPanelEntrada = new PanelEntrada();
-        miPanelEntrada.setBounds(10, 10, 480, 180);
+        miPanelEntrada.setBounds(10, 10, 530, 240);
 
         miPanelProceso = new PanelProceso();
-        miPanelProceso.setBounds(10, 200, 480, 80);
+        miPanelProceso.setBounds(10, 260, 530, 80);
 
         miPanelSalida = new PanelSalida();
-        miPanelSalida.setBounds(10, 290, 480, 110);
+        miPanelSalida.setBounds(10, 350, 530, 140);
 
         this.setTitle("Venta de Carros");
-        this.setSize(508, 442);
+        this.setSize(558, 532);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);

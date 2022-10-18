@@ -4,6 +4,7 @@ import model.Carro;
 import model.Empleado;
 import model.Empresa;
 import view.PanelEntrada;
+import view.PanelProceso;
 import view.PanelSalida;
 import view.VentanaPrincipal;
 import java.awt.event.ActionEvent;
@@ -19,8 +20,8 @@ public class Controlador implements ActionListener {
 
     public Controlador(VentanaPrincipal miVentanaPrincipal, Empresa modelo) {
         this.miVentanaPrincipal = miVentanaPrincipal;
-        this.miVentanaPrincipal.miPanelProceso.btnAgregar.addActionListener(this);
-        this.miVentanaPrincipal.miPanelProceso.btnCalcular.addActionListener(this);
+        this.miVentanaPrincipal.miPanelProceso.btnVender.addActionListener(this);
+        PanelProceso.btnCalcular.addActionListener(this);
         this.miVentanaPrincipal.miPanelProceso.btnBorrar.addActionListener(this);
         this.miVentanaPrincipal.miPanelProceso.btnSalir.addActionListener(this);
     }
@@ -28,11 +29,12 @@ public class Controlador implements ActionListener {
     public void actionPerformed(ActionEvent ae) {
         String comando = ae.getActionCommand();
 
-        if (comando.equals("agregarCarro")) {
-            String nombre = PanelEntrada.getTfNombre();
+        if (comando.equals("venderCarro")) {
+            String marca = PanelEntrada.getTfMarca();
             int precio = Integer.parseInt(PanelEntrada.getTfPrecio());
-            miCarro = new Carro(nombre, precio);
+            miCarro = new Carro(marca, precio);
             PanelSalida.mostrarResultados("Se ha registrado una nueva venta!\n");
+            System.out.println(PanelEntrada.cbEmpleados.getSelectedIndex());
             carrosVendidos.add(miCarro);
         } else if (comando.equals("calcularSalario")) {
             Empleado.calcularSalario(carrosVendidos);

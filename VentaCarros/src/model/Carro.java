@@ -1,29 +1,29 @@
 package model;
 
 public class Carro {
-        private String nombre;
+        private String marca;
         private int precio;
 
-        public Carro(String nombre, int precio) {
-                this.nombre = nombre;
+        public Carro(String marca, int precio) {
+                this.marca = marca;
                 this.precio = precio;
         }
 
         public Carro() {
-                this.nombre = "";
+                this.marca = "";
                 this.precio = 0;
         }
 
-        public String getNombre() {
-                return this.nombre;
+        public String getMarca() {
+                return this.marca;
         }
 
         public int getPrecio() {
                 return this.precio;
         }
 
-        public void setNombre(String nombre) {
-                this.nombre = nombre;
+        public void setMarca(String marca) {
+                this.marca = marca;
         }
 
         public void setPrecio(int precio) {
@@ -31,6 +31,6 @@ public class Carro {
         }
 
         public String toString() {
-                return "\nDATOS DEL CARRO: \nNombre: " + nombre + "\nPrecio: " + precio;
+                return "\nDATOS DEL CARRO: \nMarca: " + marca + "\nPrecio: " + precio;
         }
 }

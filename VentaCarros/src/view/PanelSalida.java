@@ -17,10 +17,10 @@ public class PanelSalida extends JPanel {
         taResultados.setForeground(Color.BLACK);
         taResultados.setBorder(BorderFactory.createLoweredBevelBorder());
         taResultados.setEditable(false);
-        taResultados.setBounds(9, 15, 460, 80);
+        taResultados.setBounds(9, 15, 510, 110);
 
         spResultados = new JScrollPane(taResultados);
-        spResultados.setBounds(9, 15, 460, 80);
+        spResultados.setBounds(9, 15, 510, 110);
 
         this.setLayout(null);
         this.setBackground(Color.decode("#5c9993"));

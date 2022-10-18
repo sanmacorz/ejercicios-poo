@@ -35,7 +35,11 @@ public class Empleado {
                 this.carrosVendidos = carrosVendidos;
         }
 
-        public static void calcularSalario(ArrayList<Carro> carrosVendidos) {
+        public static Empleado[] crearListaEmpleados(int numeroEmpleados) {
+                return new Empleado[numeroEmpleados];
+        }
+
+        public static double calcularSalario(ArrayList<Carro> carrosVendidos) {
                 int numeroVentas = carrosVendidos.size();
                 double porcentajeVenta = 0;
                 double sumatoria = 0;
@@ -46,6 +50,7 @@ public class Empleado {
                 }
                 double salario = SALARIO_MINIMO + (numeroVentas * COMISION_VENTA) + sumatoria;
                 PanelSalida.mostrarResultados("El salario es de: " + salario);
+                return salario;
         }
 
         public String toString() {
