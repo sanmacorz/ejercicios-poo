@@ -1,59 +1,45 @@
 package model;
 
-import view.PanelSalida;
 import java.util.ArrayList;
 
 public class Empleado {
-        private static final int SALARIO_MINIMO = 1000000;
-        private static final int COMISION_VENTA = 100000;
+        public static final double SALARIO_MINIMO = 1000000;
         private String nombre;
-        private ArrayList<Carro> carrosVendidos;
+        private ArrayList<Carro> ventas;
+        private double sueldo;
 
-        public Empleado(String nombre, ArrayList<Carro> carrosVendidos) {
-                this.nombre = nombre;
-                this.carrosVendidos = carrosVendidos;
+        public Empleado(String pNombre) {
+                this.nombre = pNombre;
+                this.ventas = new ArrayList<>();
         }
 
-        public Empleado() {
-                this.nombre = "";
-                this.carrosVendidos = null;
+        public void venderCarro(Carro carroVendido) {
+                ventas.add(carroVendido);
+        }
+
+        public void calcularSueldo() {
+                if (ventas.isEmpty()) {
+                        sueldo = SALARIO_MINIMO;
+                } else {
+                        int numCarrosVendidos = ventas.size();
+
+                        sueldo = SALARIO_MINIMO + 100000 * numCarrosVendidos;
+
+                        double totalVentas = 0;
+                        for (int i = 0; i < numCarrosVendidos; i++) {
+                                Carro carro = ventas.get(i);
+                                totalVentas = totalVentas + carro.getPrecio();
+                        }
+                        sueldo = sueldo + 0.02 * totalVentas;
+                }
         }
 
         public String getNombre() {
                 return nombre;
         }
 
-        public ArrayList<Carro> getCarros() {
-                return this.carrosVendidos;
+        public double getSueldo() {
+                return sueldo;
         }
 
-        public void setNombre(String nombre) {
-                this.nombre = nombre;
-        }
-
-        public void setCarros(ArrayList<Carro> carrosVendidos) {
-                this.carrosVendidos = carrosVendidos;
-        }
-
-        public static Empleado[] crearListaEmpleados(int numeroEmpleados) {
-                return new Empleado[numeroEmpleados];
-        }
-
-        public static double calcularSalario(ArrayList<Carro> carrosVendidos) {
-                int numeroVentas = carrosVendidos.size();
-                double porcentajeVenta = 0;
-                double sumatoria = 0;
-
-                for (int i = 0; i < numeroVentas; i++) {
-                        porcentajeVenta = carrosVendidos.get(i).getPrecio() * 0.02;
-                        sumatoria += porcentajeVenta;
-                }
-                double salario = SALARIO_MINIMO + (numeroVentas * COMISION_VENTA) + sumatoria;
-                PanelSalida.mostrarResultados("El salario es de: " + salario);
-                return salario;
-        }
-
-        public String toString() {
-                return "\nDATOS DEL CARRO: \nNombre: " + nombre + "\nVentas: " + carrosVendidos;
-        }
 }

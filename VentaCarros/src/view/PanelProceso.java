@@ -1,64 +1,59 @@
 package view;
 
+import java.awt.Color;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JPanel;
-import java.awt.Color;
-import java.awt.Font;
+import javax.swing.border.TitledBorder;
+import java.awt.event.ActionListener;
 
 public class PanelProceso extends JPanel {
-    public JButton btnVender;
-    public static JButton btnCalcular;
-    public JButton btnBorrar;
-    public JButton btnSalir;
+    private JButton btAgregarVendedor;
+    private JButton btVenderCarro;
+    private JButton btCalcularSueldo;
+    private JButton btLiquidarNomina;
+    private JButton btSalir;
 
     public PanelProceso() {
-        btnVender = new JButton("Vender");
-        btnVender.setFont(new Font("Arial", Font.PLAIN, 14));
-        btnVender.setForeground(Color.BLACK);
-        btnVender.setBackground(Color.WHITE);
-        btnVender.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnVender.setBounds(40, 22, 95, 40);
-        btnVender.setActionCommand("venderCarro");
+        btAgregarVendedor = new JButton("Agregar Vendedor");
+        btAgregarVendedor.setBounds(10, 20, 170, 20);
+        btAgregarVendedor.setActionCommand("agregarVendedor");
 
-        btnCalcular = new JButton("Calcular");
-        btnCalcular.setFont(new Font("Arial", Font.PLAIN, 14));
-        btnCalcular.setForeground(Color.BLACK);
-        btnCalcular.setBackground(Color.WHITE);
-        btnCalcular.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnCalcular.setBounds(155, 22, 95, 40);
-        btnCalcular.setActionCommand("calcularSalario");
+        btVenderCarro = new JButton("Vender Carro");
+        btVenderCarro.setBounds(10, 50, 170, 20);
+        btVenderCarro.setActionCommand("venderCarro");
 
-        btnBorrar = new JButton("Borrar");
-        btnBorrar.setFont(new Font("Arial", Font.PLAIN, 14));
-        btnBorrar.setForeground(Color.BLACK);
-        btnBorrar.setBackground(Color.WHITE);
-        btnBorrar.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnBorrar.setBounds(270, 22, 95, 40);
-        btnBorrar.setActionCommand("borrarTexto");
+        btCalcularSueldo = new JButton("Calcular Sueldo");
+        btCalcularSueldo.setBounds(10, 80, 170, 20);
+        btCalcularSueldo.setActionCommand("calcularSueldo");
 
-        btnSalir = new JButton("Salir");
-        btnSalir.setFont(new Font("Arial", Font.PLAIN, 14));
-        btnSalir.setForeground(Color.BLACK);
-        btnSalir.setBackground(Color.WHITE);
-        btnSalir.setBorder(BorderFactory.createRaisedBevelBorder());
-        btnSalir.setBounds(385, 22, 95, 40);
-        btnSalir.setActionCommand("cerrarVentana");
+        btLiquidarNomina = new JButton("Liquidar Nómina");
+        btLiquidarNomina.setBounds(190, 20, 170, 20);
+        btLiquidarNomina.setActionCommand("liquidarNomina");
+
+        btSalir = new JButton("Salir");
+        btSalir.setBounds(190, 50, 170, 20);
+        btSalir.setActionCommand("salir");
+
+        TitledBorder borde = BorderFactory.createTitledBorder("Operaciones");
+        borde.setTitleColor(Color.BLUE);
 
         this.setLayout(null);
-        this.setBackground(Color.decode("#5c9993"));
-        this.setVisible(true);
-        this.add(btnVender);
-        this.add(btnCalcular);
-        this.add(btnBorrar);
-        this.add(btnSalir);
+        this.setBackground(Color.WHITE);
+        this.add(btAgregarVendedor);
+        this.add(btVenderCarro);
+        this.add(btCalcularSueldo);
+        this.add(btLiquidarNomina);
+        this.add(btSalir);
+        this.setBorder(borde);
     }
 
-    public static void desactivarBotonCalcular() {
-        btnCalcular.setEnabled(false);
+    public void agregarOyentesBotones(ActionListener pAL) {
+        btAgregarVendedor.addActionListener(pAL);
+        btVenderCarro.addActionListener(pAL);
+        btCalcularSueldo.addActionListener(pAL);
+        btLiquidarNomina.addActionListener(pAL);
+        btSalir.addActionListener(pAL);
     }
 
-    public static void activarBotonCalcular() {
-        btnCalcular.setEnabled(true);
-    }
 }

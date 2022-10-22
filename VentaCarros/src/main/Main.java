@@ -6,9 +6,8 @@ import view.VentanaPrincipal;
 
 public class Main {
     public static void main(String[] args) {
+        VentanaPrincipal miVentanaPrincipal = new VentanaPrincipal();
         Empresa miEmpresa = new Empresa();
-
-        VentanaPrincipal miVentana = new VentanaPrincipal();
-        new Controlador(miVentana, miEmpresa);
+        new Controlador(miVentanaPrincipal, miEmpresa);
     }
 }
