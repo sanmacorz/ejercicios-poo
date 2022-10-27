@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.genmymodel.graphic.uml="http://com.genmymodel.ecoreonline.graphic.uml/1.0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.genmymodel.ecoreonline.graphic="http://com.genmymodel.ecoreonline.graphic/2.0" xmlns:com.genmymodel.graphic.uml="http://com.genmymodel.ecoreonline.graphic.uml/1.0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_L24K4FIiEe2ck8ytUMEi6A" name="PlanTelefonia">
     <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
       <eAnnotations xmi:id="_L24K4FIiEe2ck8ytUMEi6A0" source="genmymodel">
@@ -31,7 +31,7 @@
                 </eAnnotations>
               </xmi:Extension>
             </ownedDiagramElements>
-            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:PackageWidget" xmi:id="_NvYG0DRQEDuj7tin972Axw" modelElement="_NvVqkDRQEDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_wJMaMDRREDuj7tin972Axw" x="457" y="54" width="180" height="183" minWidth="180" minHeight="183">
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:PackageWidget" xmi:id="_NvYG0DRQEDuj7tin972Axw" modelElement="_NvVqkDRQEDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_wJMaMDRREDuj7tin972Axw" x="457" y="54" width="507" height="183" minWidth="180" minHeight="183">
               <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
                 <eAnnotations xmi:id="_NvYG0DRQEDuj7tin972Axw0" source="genmymodel">
                   <details xmi:id="_NvYG0DRQEDuj7tin972Axw00" key="uuid" value="_NvYG0DRQEDuj7tin972Axw"/>
@@ -45,7 +45,7 @@
                 </eAnnotations>
               </xmi:Extension>
             </ownedDiagramElements>
-            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_WVtqgDRQEDuj7tin972Axw" modelElement="_WVoK8DRQEDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="470" y="324" width="673" height="344" minWidth="180" minHeight="110" refElement="_NKbmsDRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="40" deltaX="13">
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_WVtqgDRQEDuj7tin972Axw" modelElement="_WVoK8DRQEDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" anchors="_aqW5YTfbEDuTGs34dWGutg _tUk80TfbEDuTGs34dWGutg" x="470" y="324" width="673" height="344" minWidth="180" minHeight="110" refElement="_NKbmsDRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="40" deltaX="13">
               <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
                 <eAnnotations xmi:id="_WVtqgDRQEDuj7tin972Axw0" source="genmymodel">
                   <details xmi:id="_WVtqgDRQEDuj7tin972Axw00" key="uuid" value="_WVtqgDRQEDuj7tin972Axw"/>
@@ -157,28 +157,21 @@
                 </xmi:Extension>
               </ownedDiagramElements>
             </ownedDiagramElements>
-            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_PFH8UDRREDuj7tin972Axw" modelElement="_PFER8DRREDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="42" y="100" width="250" height="110" minWidth="250" minHeight="110" refElement="_Pim_ADRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="47" deltaX="11">
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_PFH8UDRREDuj7tin972Axw" modelElement="_PFER8DRREDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" anchors="_rwbCcDfbEDuTGs34dWGutg _tUk80DfbEDuTGs34dWGutg _vNYRgDfbEDuTGs34dWGutg" x="42" y="100" width="250" height="110" minWidth="250" minHeight="110" refElement="_Pim_ADRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="47" deltaX="11">
               <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
                 <eAnnotations xmi:id="_PFH8UDRREDuj7tin972Axw0" source="genmymodel">
                   <details xmi:id="_PFH8UDRREDuj7tin972Axw00" key="uuid" value="_PFH8UDRREDuj7tin972Axw"/>
                 </eAnnotations>
               </xmi:Extension>
-              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:PropertyWidget" xmi:id="_edn64DRSEDuj7tin972Axw" modelElement="_edleoDRSEDuj7tin972Axw" diagramElementParent="_PFH8UDRREDuj7tin972Axw" width="242" height="20">
+              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:OperationWidget" xmi:id="_WbMGEDfiEDuTGs34dWGutg" modelElement="_WbK38DfiEDuTGs34dWGutg" diagramElementParent="_PFH8UDRREDuj7tin972Axw" width="142" height="20" showParametersName="true">
                 <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
-                  <eAnnotations xmi:id="_edn64DRSEDuj7tin972Axw0" source="genmymodel">
-                    <details xmi:id="_edn64DRSEDuj7tin972Axw00" key="uuid" value="_edn64DRSEDuj7tin972Axw"/>
-                  </eAnnotations>
-                </xmi:Extension>
-              </ownedDiagramElements>
-              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:PropertyWidget" xmi:id="_jyXK8DRSEDuj7tin972Axw" modelElement="_jyUHoDRSEDuj7tin972Axw" diagramElementParent="_PFH8UDRREDuj7tin972Axw" width="204" height="20">
-                <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
-                  <eAnnotations xmi:id="_jyXK8DRSEDuj7tin972Axw0" source="genmymodel">
-                    <details xmi:id="_jyXK8DRSEDuj7tin972Axw00" key="uuid" value="_jyXK8DRSEDuj7tin972Axw"/>
+                  <eAnnotations xmi:id="_WbMGEDfiEDuTGs34dWGutg0" source="genmymodel">
+                    <details xmi:id="_WbMGEDfiEDuTGs34dWGutg00" key="uuid" value="_WbMGEDfiEDuTGs34dWGutg"/>
                   </eAnnotations>
                 </xmi:Extension>
               </ownedDiagramElements>
             </ownedDiagramElements>
-            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_Rfo28DRREDuj7tin972Axw" modelElement="_RfklgDRREDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="45" y="324" width="170" height="120" minWidth="170" minHeight="120" refElement="_Mc_48DRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="40" deltaX="14">
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_Rfo28DRREDuj7tin972Axw" modelElement="_RfklgDRREDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" anchors="_gsurgTfbEDuTGs34dWGutg _vNYRgTfbEDuTGs34dWGutg" x="45" y="324" width="170" height="120" minWidth="170" minHeight="120" refElement="_Mc_48DRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="40" deltaX="14">
               <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
                 <eAnnotations xmi:id="_Rfo28DRREDuj7tin972Axw0" source="genmymodel">
                   <details xmi:id="_Rfo28DRREDuj7tin972Axw00" key="uuid" value="_Rfo28DRREDuj7tin972Axw"/>
@@ -206,10 +199,248 @@
                 </eAnnotations>
               </xmi:Extension>
             </ownedDiagramElements>
-            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_wJMaMDRREDuj7tin972Axw" modelElement="_wJIv0DRREDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="481" y="95" width="133" height="120" minWidth="133" minHeight="120" refElement="_NvYG0DRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="41" deltaX="24">
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_wJMaMDRREDuj7tin972Axw" modelElement="_wJIv0DRREDuj7tin972Axw" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" anchors="_aqW5YDfbEDuTGs34dWGutg _gsurgDfbEDuTGs34dWGutg _jwglkDfbEDuTGs34dWGutg _ki0MQDfbEDuTGs34dWGutg _rwbCcTfbEDuTGs34dWGutg" x="481" y="95" width="473" height="120" minWidth="133" minHeight="120" refElement="_NvYG0DRQEDuj7tin972Axw" constraintPosition="CONTAINED_POSITION" deltaY="41" deltaX="24">
               <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
                 <eAnnotations xmi:id="_wJMaMDRREDuj7tin972Axw0" source="genmymodel">
                   <details xmi:id="_wJMaMDRREDuj7tin972Axw00" key="uuid" value="_wJMaMDRREDuj7tin972Axw"/>
+                </eAnnotations>
+              </xmi:Extension>
+              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:OperationWidget" xmi:id="_AX9OgDfZEDu3_LLAmmylGA" modelElement="_AX7ZUDfZEDu3_LLAmmylGA" diagramElementParent="_wJMaMDRREDuj7tin972Axw" width="469" height="20" showParametersName="true">
+                <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                  <eAnnotations xmi:id="_AX9OgDfZEDu3_LLAmmylGA0" source="genmymodel">
+                    <details xmi:id="_AX9OgDfZEDu3_LLAmmylGA00" key="uuid" value="_AX9OgDfZEDu3_LLAmmylGA"/>
+                  </eAnnotations>
+                </xmi:Extension>
+              </ownedDiagramElements>
+              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:OperationWidget" xmi:id="_B_hCMDfZEDu3_LLAmmylGA" modelElement="_B_el8DfZEDu3_LLAmmylGA" diagramElementParent="_wJMaMDRREDuj7tin972Axw" width="234" height="20" showParametersName="true">
+                <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                  <eAnnotations xmi:id="_B_hCMDfZEDu3_LLAmmylGA0" source="genmymodel">
+                    <details xmi:id="_B_hCMDfZEDu3_LLAmmylGA00" key="uuid" value="_B_hCMDfZEDu3_LLAmmylGA"/>
+                  </eAnnotations>
+                </xmi:Extension>
+              </ownedDiagramElements>
+              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:PropertyWidget" xmi:id="_AbjfoDfaEDuxheD2TdR6lQ" modelElement="_AbhqcDfaEDuxheD2TdR6lQ" diagramElementParent="_wJMaMDRREDuj7tin972Axw" width="242" height="20">
+                <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                  <eAnnotations xmi:id="_AbjfoDfaEDuxheD2TdR6lQ0" source="genmymodel">
+                    <details xmi:id="_AbjfoDfaEDuxheD2TdR6lQ00" key="uuid" value="_AbjfoDfaEDuxheD2TdR6lQ"/>
+                  </eAnnotations>
+                </xmi:Extension>
+              </ownedDiagramElements>
+              <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:PropertyWidget" xmi:id="_AhBOcDfaEDuxheD2TdR6lQ" modelElement="_Ag-yMDfaEDuxheD2TdR6lQ" diagramElementParent="_wJMaMDRREDuj7tin972Axw" width="153" height="20">
+                <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                  <eAnnotations xmi:id="_AhBOcDfaEDuxheD2TdR6lQ0" source="genmymodel">
+                    <details xmi:id="_AhBOcDfaEDuxheD2TdR6lQ00" key="uuid" value="_AhBOcDfaEDuxheD2TdR6lQ"/>
+                  </eAnnotations>
+                </xmi:Extension>
+              </ownedDiagramElements>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_vd4BEDfaEDuTGs34dWGutg" modelElement="_mVrGcDfaEDuxheD2TdR6lQ" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" anchors="_ki0MQTfbEDuTGs34dWGutg" relativeNodes="_IlaGMDfbEDuTGs34dWGutg" x="1015" y="79" width="111" height="134" minWidth="111" minHeight="134">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_vd4BEDfaEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_vd4BEDfaEDuTGs34dWGutg00" key="uuid" value="_vd4BEDfaEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:ClassWidget" xmi:id="_IlaGMDfbEDuTGs34dWGutg" modelElement="_IlYRADfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" anchors="_jwglkTfbEDuTGs34dWGutg" x="1027" y="115" width="88" height="80" minWidth="60" minHeight="80" refElement="_vd4BEDfaEDuTGs34dWGutg" constraintPosition="CONTAINED_POSITION" deltaY="36" deltaX="12">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_IlaGMDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_IlaGMDfbEDuTGs34dWGutg00" key="uuid" value="_IlaGMDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_aqW5YDfbEDuTGs34dWGutg" modelElement="_aqVrQDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="733" y="215" targetSegments="_aqXgcDfbEDuTGs34dWGutg" attachedElement="_wJMaMDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_aqW5YDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_aqW5YDfbEDuTGs34dWGutg00" key="uuid" value="_aqW5YDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_aqW5YTfbEDuTGs34dWGutg" modelElement="_aqVrQDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="762" y="324" sourceSegments="_aqXgcDfbEDuTGs34dWGutg" attachedElement="_WVtqgDRQEDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_aqW5YTfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_aqW5YTfbEDuTGs34dWGutg00" key="uuid" value="_aqW5YTfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_aqXgcDfbEDuTGs34dWGutg" modelElement="_aqVrQDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_aqe1MDfbEDuTGs34dWGutg" sourceConnector="_aqW5YDfbEDuTGs34dWGutg" targetConnector="_aqW5YTfbEDuTGs34dWGutg" x="724" y="205" width="29" height="109">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_aqXgcDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_aqXgcDfbEDuTGs34dWGutg00" key="uuid" value="_aqXgcDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_aqe1MDfbEDuTGs34dWGutg" modelElement="_aqVrQDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="738" y="265" width="21" height="21" minHeight="21" refElement="_aqXgcDfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_aqe1MDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_aqe1MDfbEDuTGs34dWGutg00" key="uuid" value="_aqe1MDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_gsurgDfbEDuTGs34dWGutg" modelElement="_gstdYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="563" y="215" targetSegments="_gsurgjfbEDuTGs34dWGutg" attachedElement="_wJMaMDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_gsurgDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_gsurgDfbEDuTGs34dWGutg00" key="uuid" value="_gsurgDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_gsurgTfbEDuTGs34dWGutg" modelElement="_gstdYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="215" y="350" sourceSegments="_gsurgjfbEDuTGs34dWGutg" attachedElement="_Rfo28DRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_gsurgTfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_gsurgTfbEDuTGs34dWGutg00" key="uuid" value="_gsurgTfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_gsurgjfbEDuTGs34dWGutg" modelElement="_gstdYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_gsyV4DfbEDuTGs34dWGutg" sourceConnector="_gsurgDfbEDuTGs34dWGutg" targetConnector="_gsurgTfbEDuTGs34dWGutg" x="205" y="205" width="348" height="135">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_gsurgjfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_gsurgjfbEDuTGs34dWGutg00" key="uuid" value="_gsurgjfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_gsyV4DfbEDuTGs34dWGutg" modelElement="_gstdYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="379" y="278" width="21" height="21" minHeight="21" refElement="_gsurgjfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_gsyV4DfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_gsyV4DfbEDuTGs34dWGutg00" key="uuid" value="_gsyV4DfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_jwglkDfbEDuTGs34dWGutg" modelElement="_jwfXcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="954" y="155" targetSegments="_jwglkjfbEDuTGs34dWGutg" attachedElement="_wJMaMDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_jwglkDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_jwglkDfbEDuTGs34dWGutg00" key="uuid" value="_jwglkDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_jwglkTfbEDuTGs34dWGutg" modelElement="_jwfXcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="1027" y="155" sourceSegments="_jwglkjfbEDuTGs34dWGutg" attachedElement="_IlaGMDfbEDuTGs34dWGutg">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_jwglkTfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_jwglkTfbEDuTGs34dWGutg00" key="uuid" value="_jwglkTfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_jwglkjfbEDuTGs34dWGutg" modelElement="_jwfXcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_jwleEDfbEDuTGs34dWGutg" sourceConnector="_jwglkDfbEDuTGs34dWGutg" targetConnector="_jwglkTfbEDuTGs34dWGutg" x="941" y="145" width="73">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_jwglkjfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_jwglkjfbEDuTGs34dWGutg00" key="uuid" value="_jwglkjfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_jwleEDfbEDuTGs34dWGutg" modelElement="_jwfXcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="981" y="150" width="21" height="21" minHeight="21" refElement="_jwglkjfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_jwleEDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_jwleEDfbEDuTGs34dWGutg00" key="uuid" value="_jwleEDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_ki0MQDfbEDuTGs34dWGutg" modelElement="_kizlMDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="954" y="148" targetSegments="_ki0zUDfbEDuTGs34dWGutg" attachedElement="_wJMaMDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_ki0MQDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_ki0MQDfbEDuTGs34dWGutg00" key="uuid" value="_ki0MQDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_ki0MQTfbEDuTGs34dWGutg" modelElement="_kizlMDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="1015" y="147" sourceSegments="_ki0zUDfbEDuTGs34dWGutg" attachedElement="_vd4BEDfaEDuTGs34dWGutg">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_ki0MQTfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_ki0MQTfbEDuTGs34dWGutg00" key="uuid" value="_ki0MQTfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_ki0zUDfbEDuTGs34dWGutg" modelElement="_kizlMDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_ki5EwDfbEDuTGs34dWGutg" sourceConnector="_ki0MQDfbEDuTGs34dWGutg" targetConnector="_ki0MQTfbEDuTGs34dWGutg" x="941" y="137" width="61" height="1">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_ki0zUDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_ki0zUDfbEDuTGs34dWGutg00" key="uuid" value="_ki0zUDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_ki5EwDfbEDuTGs34dWGutg" modelElement="_kizlMDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="975" y="143" width="21" height="21" minHeight="21" refElement="_ki0zUDfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_ki5EwDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_ki5EwDfbEDuTGs34dWGutg00" key="uuid" value="_ki5EwDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_rwbCcDfbEDuTGs34dWGutg" modelElement="_rwabYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="292" y="155" targetSegments="_rwbpgDfbEDuTGs34dWGutg" attachedElement="_PFH8UDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_rwbCcDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_rwbCcDfbEDuTGs34dWGutg00" key="uuid" value="_rwbCcDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_rwbCcTfbEDuTGs34dWGutg" modelElement="_rwabYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="481" y="155" sourceSegments="_rwbpgDfbEDuTGs34dWGutg" attachedElement="_wJMaMDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_rwbCcTfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_rwbCcTfbEDuTGs34dWGutg00" key="uuid" value="_rwbCcTfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_rwbpgDfbEDuTGs34dWGutg" modelElement="_rwabYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_rwf68DfbEDuTGs34dWGutg" sourceConnector="_rwbCcDfbEDuTGs34dWGutg" targetConnector="_rwbCcTfbEDuTGs34dWGutg" x="282" y="145" width="189">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_rwbpgDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_rwbpgDfbEDuTGs34dWGutg00" key="uuid" value="_rwbpgDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_rwf68DfbEDuTGs34dWGutg" modelElement="_rwabYDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="377" y="150" width="21" height="21" minHeight="21" refElement="_rwbpgDfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_rwf68DfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_rwf68DfbEDuTGs34dWGutg00" key="uuid" value="_rwf68DfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_tUk80DfbEDuTGs34dWGutg" modelElement="_tUkVwDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="270" y="210" targetSegments="_tUk80jfbEDuTGs34dWGutg" attachedElement="_PFH8UDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_tUk80DfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_tUk80DfbEDuTGs34dWGutg00" key="uuid" value="_tUk80DfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_tUk80TfbEDuTGs34dWGutg" modelElement="_tUkVwDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="484" y="324" sourceSegments="_tUk80jfbEDuTGs34dWGutg" attachedElement="_WVtqgDRQEDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_tUk80TfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_tUk80TfbEDuTGs34dWGutg00" key="uuid" value="_tUk80TfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_tUk80jfbEDuTGs34dWGutg" modelElement="_tUkVwDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_tUp1UDfbEDuTGs34dWGutg" sourceConnector="_tUk80DfbEDuTGs34dWGutg" targetConnector="_tUk80TfbEDuTGs34dWGutg" x="260" y="200" width="214" height="114">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_tUk80jfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_tUk80jfbEDuTGs34dWGutg00" key="uuid" value="_tUk80jfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_tUp1UDfbEDuTGs34dWGutg" modelElement="_tUkVwDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="367" y="262" width="21" height="21" minHeight="21" refElement="_tUk80jfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_tUp1UDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_tUp1UDfbEDuTGs34dWGutg00" key="uuid" value="_tUp1UDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_vNYRgDfbEDuTGs34dWGutg" modelElement="_vNXqcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="158" y="210" targetSegments="_vNY4kDfbEDuTGs34dWGutg" attachedElement="_PFH8UDRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_vNYRgDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_vNYRgDfbEDuTGs34dWGutg00" key="uuid" value="_vNYRgDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.ecoreonline.graphic:AnchorWidget" xmi:id="_vNYRgTfbEDuTGs34dWGutg" modelElement="_vNXqcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="139" y="324" sourceSegments="_vNY4kDfbEDuTGs34dWGutg" attachedElement="_Rfo28DRREDuj7tin972Axw">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_vNYRgTfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_vNYRgTfbEDuTGs34dWGutg00" key="uuid" value="_vNYRgTfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:DependencySegment" xmi:id="_vNY4kDfbEDuTGs34dWGutg" modelElement="_vNXqcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" relativeNodes="_vNci8DfbEDuTGs34dWGutg" sourceConnector="_vNYRgDfbEDuTGs34dWGutg" targetConnector="_vNYRgTfbEDuTGs34dWGutg" x="129" y="200" width="19" height="114">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_vNY4kDfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_vNY4kDfbEDuTGs34dWGutg00" key="uuid" value="_vNY4kDfbEDuTGs34dWGutg"/>
+                </eAnnotations>
+              </xmi:Extension>
+            </ownedDiagramElements>
+            <ownedDiagramElements xsi:type="com.genmymodel.graphic.uml:NamedLabelWidget" xmi:id="_vNci8DfbEDuTGs34dWGutg" modelElement="_vNXqcDfbEDuTGs34dWGutg" diagramElementParent="_L24K4lIiEe2ck8ytUMEi6A" x="139" y="262" width="21" height="21" minHeight="21" refElement="_vNY4kDfbEDuTGs34dWGutg" constraintPosition="CENTER_POSITION" deltaY="-5" deltaX="-10">
+              <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+                <eAnnotations xmi:id="_vNci8DfbEDuTGs34dWGutg0" source="genmymodel">
+                  <details xmi:id="_vNci8DfbEDuTGs34dWGutg00" key="uuid" value="_vNci8DfbEDuTGs34dWGutg"/>
                 </eAnnotations>
               </xmi:Extension>
             </ownedDiagramElements>
@@ -493,10 +724,115 @@
           <details xmi:id="_NvVqkDRQEDuj7tin972Axw00" key="uuid" value="_NvVqkDRQEDuj7tin972Axw"/>
         </eAnnotations>
       </xmi:Extension>
+      <elementImport xmi:id="_KIvzIDfZEDu3_LLAmmylGA" importedElement="_RfklgDRREDuj7tin972Axw" importingNamespace="_NvVqkDRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_KIvzIDfZEDu3_LLAmmylGA0" source="genmymodel">
+            <details xmi:id="_KIvzIDfZEDu3_LLAmmylGA00" key="uuid" value="_KIvzIDfZEDu3_LLAmmylGA"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </elementImport>
+      <elementImport xmi:id="_jLAWsDfZEDu3_LLAmmylGA" importedElement="_WVoK8DRQEDuj7tin972Axw" importingNamespace="_NvVqkDRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_jLAWsDfZEDu3_LLAmmylGA0" source="genmymodel">
+            <details xmi:id="_jLAWsDfZEDu3_LLAmmylGA00" key="uuid" value="_jLAWsDfZEDu3_LLAmmylGA"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </elementImport>
+      <elementImport xmi:id="_mVrGcTfaEDuxheD2TdR6lQ" importedElement="_mVrGcDfaEDuxheD2TdR6lQ" importingNamespace="_NvVqkDRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_mVrGcTfaEDuxheD2TdR6lQ0" source="genmymodel">
+            <details xmi:id="_mVrGcTfaEDuxheD2TdR6lQ00" key="uuid" value="_mVrGcTfaEDuxheD2TdR6lQ"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </elementImport>
+      <elementImport xmi:id="_OTLhUDfbEDuTGs34dWGutg" importedElement="_IlYRADfbEDuTGs34dWGutg" importingNamespace="_NvVqkDRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_OTLhUDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_OTLhUDfbEDuTGs34dWGutg00" key="uuid" value="_OTLhUDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </elementImport>
       <packagedElement xsi:type="uml:Class" xmi:id="_wJIv0DRREDuj7tin972Axw" name="Controlador">
         <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
           <eAnnotations xmi:id="_wJIv0DRREDuj7tin972Axw0" source="genmymodel">
             <details xmi:id="_wJIv0DRREDuj7tin972Axw00" key="uuid" value="_wJIv0DRREDuj7tin972Axw"/>
+          </eAnnotations>
+        </xmi:Extension>
+        <ownedAttribute xmi:id="_AbhqcDfaEDuxheD2TdR6lQ" name="miVentanaPrincipal" visibility="private" type="_RfklgDRREDuj7tin972Axw">
+          <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+            <eAnnotations xmi:id="_AbhqcDfaEDuxheD2TdR6lQ0" source="genmymodel">
+              <details xmi:id="_AbhqcDfaEDuxheD2TdR6lQ00" key="uuid" value="_AbhqcDfaEDuxheD2TdR6lQ"/>
+            </eAnnotations>
+          </xmi:Extension>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Ag-yMDfaEDuxheD2TdR6lQ" name="modelo" visibility="private" type="_WVoK8DRQEDuj7tin972Axw">
+          <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+            <eAnnotations xmi:id="_Ag-yMDfaEDuxheD2TdR6lQ0" source="genmymodel">
+              <details xmi:id="_Ag-yMDfaEDuxheD2TdR6lQ00" key="uuid" value="_Ag-yMDfaEDuxheD2TdR6lQ"/>
+            </eAnnotations>
+          </xmi:Extension>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_AX7ZUDfZEDu3_LLAmmylGA" name="Controlador" visibility="public" class="_wJIv0DRREDuj7tin972Axw">
+          <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+            <eAnnotations xmi:id="_AX7ZUDfZEDu3_LLAmmylGA0" source="genmymodel">
+              <details xmi:id="_AX7ZUDfZEDu3_LLAmmylGA00" key="uuid" value="_AX7ZUDfZEDu3_LLAmmylGA"/>
+            </eAnnotations>
+          </xmi:Extension>
+          <ownedParameter xmi:id="_F_AWkDfZEDu3_LLAmmylGA" name="miVentanaPrincipal" type="_RfklgDRREDuj7tin972Axw">
+            <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+              <eAnnotations xmi:id="_F_AWkDfZEDu3_LLAmmylGA0" source="genmymodel">
+                <details xmi:id="_F_AWkDfZEDu3_LLAmmylGA00" key="uuid" value="_F_AWkDfZEDu3_LLAmmylGA"/>
+              </eAnnotations>
+            </xmi:Extension>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Ga9SwDfZEDu3_LLAmmylGA" name="modelo" type="_WVoK8DRQEDuj7tin972Axw">
+            <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+              <eAnnotations xmi:id="_Ga9SwDfZEDu3_LLAmmylGA0" source="genmymodel">
+                <details xmi:id="_Ga9SwDfZEDu3_LLAmmylGA00" key="uuid" value="_Ga9SwDfZEDu3_LLAmmylGA"/>
+              </eAnnotations>
+            </xmi:Extension>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_B_el8DfZEDu3_LLAmmylGA" name="actionPerformed" visibility="public" class="_wJIv0DRREDuj7tin972Axw">
+          <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+            <eAnnotations xmi:id="_B_el8DfZEDu3_LLAmmylGA0" source="genmymodel">
+              <details xmi:id="_B_el8DfZEDu3_LLAmmylGA00" key="uuid" value="_B_el8DfZEDu3_LLAmmylGA"/>
+            </eAnnotations>
+          </xmi:Extension>
+          <ownedParameter xmi:id="_oDsj8DfZEDu3_LLAmmylGA" name="ae" type="_IlYRADfbEDuTGs34dWGutg">
+            <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+              <eAnnotations xmi:id="_oDsj8DfZEDu3_LLAmmylGA0" source="genmymodel">
+                <details xmi:id="_oDsj8DfZEDu3_LLAmmylGA00" key="uuid" value="_oDsj8DfZEDu3_LLAmmylGA"/>
+              </eAnnotations>
+            </xmi:Extension>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_aqVrQDfbEDuTGs34dWGutg" client="_wJIv0DRREDuj7tin972Axw" supplier="_WVoK8DRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_aqVrQDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_aqVrQDfbEDuTGs34dWGutg00" key="uuid" value="_aqVrQDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_gstdYDfbEDuTGs34dWGutg" client="_wJIv0DRREDuj7tin972Axw" supplier="_RfklgDRREDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_gstdYDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_gstdYDfbEDuTGs34dWGutg00" key="uuid" value="_gstdYDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_jwfXcDfbEDuTGs34dWGutg" client="_wJIv0DRREDuj7tin972Axw" supplier="_IlYRADfbEDuTGs34dWGutg">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_jwfXcDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_jwfXcDfbEDuTGs34dWGutg00" key="uuid" value="_jwfXcDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_kizlMDfbEDuTGs34dWGutg" client="_wJIv0DRREDuj7tin972Axw" supplier="_mVrGcDfaEDuxheD2TdR6lQ">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_kizlMDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_kizlMDfbEDuTGs34dWGutg00" key="uuid" value="_kizlMDfbEDuTGs34dWGutg"/>
           </eAnnotations>
         </xmi:Extension>
       </packagedElement>
@@ -507,17 +843,17 @@
           <details xmi:id="_PijUoDRQEDuj7tin972Axw00" key="uuid" value="_PijUoDRQEDuj7tin972Axw"/>
         </eAnnotations>
       </xmi:Extension>
-      <elementImport xmi:id="_f6RfEDRSEDuj7tin972Axw" importedElement="_f6T7UDRSEDuj7tin972Axw" importingNamespace="_PijUoDRQEDuj7tin972Axw">
-        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
-          <eAnnotations xmi:id="_f6RfEDRSEDuj7tin972Axw0" source="genmymodel">
-            <details xmi:id="_f6RfEDRSEDuj7tin972Axw00" key="uuid" value="_f6RfEDRSEDuj7tin972Axw"/>
-          </eAnnotations>
-        </xmi:Extension>
-      </elementImport>
       <elementImport xmi:id="_l2V04DRSEDuj7tin972Axw" importedElement="_WVoK8DRQEDuj7tin972Axw" importingNamespace="_PijUoDRQEDuj7tin972Axw">
         <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
           <eAnnotations xmi:id="_l2V04DRSEDuj7tin972Axw0" source="genmymodel">
             <details xmi:id="_l2V04DRSEDuj7tin972Axw00" key="uuid" value="_l2V04DRSEDuj7tin972Axw"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </elementImport>
+      <elementImport xmi:id="_d8u7ADfZEDu3_LLAmmylGA" importedElement="_RfklgDRREDuj7tin972Axw" importingNamespace="_PijUoDRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_d8u7ADfZEDu3_LLAmmylGA0" source="genmymodel">
+            <details xmi:id="_d8u7ADfZEDu3_LLAmmylGA00" key="uuid" value="_d8u7ADfZEDu3_LLAmmylGA"/>
           </eAnnotations>
         </xmi:Extension>
       </elementImport>
@@ -527,7 +863,7 @@
             <details xmi:id="_PFER8DRREDuj7tin972Axw00" key="uuid" value="_PFER8DRREDuj7tin972Axw"/>
           </eAnnotations>
         </xmi:Extension>
-        <ownedAttribute xmi:id="_edleoDRSEDuj7tin972Axw" name="miVentanaPrincipal" visibility="private" type="_f6T7UDRSEDuj7tin972Axw">
+        <ownedAttribute xmi:id="_edleoDRSEDuj7tin972Axw" name="miVentanaPrincipal" visibility="private" type="_RfklgDRREDuj7tin972Axw">
           <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
             <eAnnotations xmi:id="_edleoDRSEDuj7tin972Axw0" source="genmymodel">
               <details xmi:id="_edleoDRSEDuj7tin972Axw00" key="uuid" value="_edleoDRSEDuj7tin972Axw"/>
@@ -541,14 +877,64 @@
             </eAnnotations>
           </xmi:Extension>
         </ownedAttribute>
+        <ownedOperation xmi:id="_WbK38DfiEDuTGs34dWGutg" name="main" visibility="public" class="_PFER8DRREDuj7tin972Axw">
+          <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+            <eAnnotations xmi:id="_WbK38DfiEDuTGs34dWGutg0" source="genmymodel">
+              <details xmi:id="_WbK38DfiEDuTGs34dWGutg00" key="uuid" value="_WbK38DfiEDuTGs34dWGutg"/>
+            </eAnnotations>
+          </xmi:Extension>
+          <ownedParameter xmi:id="_daQJ8DfiEDuTGs34dWGutg" name="args">
+            <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+              <eAnnotations xmi:id="_daQJ8DfiEDuTGs34dWGutg0" source="genmymodel">
+                <details xmi:id="_daQJ8DfiEDuTGs34dWGutg00" key="uuid" value="_daQJ8DfiEDuTGs34dWGutg"/>
+              </eAnnotations>
+            </xmi:Extension>
+            <type xsi:type="uml:PrimitiveType" href="http://www.omg.org/spec/UML/20131001/PrimitiveTypes.xmi#//String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_rwabYDfbEDuTGs34dWGutg" client="_PFER8DRREDuj7tin972Axw" supplier="_wJIv0DRREDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_rwabYDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_rwabYDfbEDuTGs34dWGutg00" key="uuid" value="_rwabYDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_tUkVwDfbEDuTGs34dWGutg" client="_PFER8DRREDuj7tin972Axw" supplier="_WVoK8DRQEDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_tUkVwDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_tUkVwDfbEDuTGs34dWGutg00" key="uuid" value="_tUkVwDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Dependency" xmi:id="_vNXqcDfbEDuTGs34dWGutg" client="_PFER8DRREDuj7tin972Axw" supplier="_RfklgDRREDuj7tin972Axw">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_vNXqcDfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_vNXqcDfbEDuTGs34dWGutg00" key="uuid" value="_vNXqcDfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
       </packagedElement>
     </packagedElement>
-    <packagedElement xsi:type="uml:Enumeration" xmi:id="_f6T7UDRSEDuj7tin972Axw" name="VentanaPrincipal">
+    <packagedElement xsi:type="uml:Class" xmi:id="_mVrGcDfaEDuxheD2TdR6lQ" name="ActionListener">
       <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
-        <eAnnotations xmi:id="_f6T7UDRSEDuj7tin972Axw0" source="genmymodel">
-          <details xmi:id="_f6T7UDRSEDuj7tin972Axw00" key="uuid" value="_f6T7UDRSEDuj7tin972Axw"/>
+        <eAnnotations xmi:id="_mVrGcDfaEDuxheD2TdR6lQ0" source="genmymodel">
+          <details xmi:id="_mVrGcDfaEDuxheD2TdR6lQ00" key="uuid" value="_mVrGcDfaEDuxheD2TdR6lQ"/>
         </eAnnotations>
       </xmi:Extension>
+      <ownedOperation xmi:id="_986dgDfaEDuTGs34dWGutg" name="ActionEvent" visibility="public" class="_mVrGcDfaEDuxheD2TdR6lQ">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_986dgDfaEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_986dgDfaEDuTGs34dWGutg00" key="uuid" value="_986dgDfaEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </ownedOperation>
+      <nestedClassifier xsi:type="uml:Class" xmi:id="_IlYRADfbEDuTGs34dWGutg" name="ActionEvent">
+        <xmi:Extension extender="http://www.eclipse.org/emf/2002/Ecore">
+          <eAnnotations xmi:id="_IlYRADfbEDuTGs34dWGutg0" source="genmymodel">
+            <details xmi:id="_IlYRADfbEDuTGs34dWGutg00" key="uuid" value="_IlYRADfbEDuTGs34dWGutg"/>
+          </eAnnotations>
+        </xmi:Extension>
+      </nestedClassifier>
     </packagedElement>
   </uml:Model>
 </xmi:XMI>

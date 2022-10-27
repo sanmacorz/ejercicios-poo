@@ -7,14 +7,15 @@ public class PlanTelefonia {
         private Double costoMinuto;
         private Double costoTotal;
 
-        PlanTelefonia(String numeroCelular, String operadorCelular, Integer cantidadMinutos, Double costoMinuto) {
+        public PlanTelefonia(String numeroCelular, String operadorCelular, Integer cantidadMinutos,
+                        Double costoMinuto) {
                 this.numeroCelular = numeroCelular;
                 this.operadorCelular = operadorCelular;
                 this.cantidadMinutos = cantidadMinutos;
                 this.costoMinuto = costoMinuto;
         }
 
-        PlanTelefonia() {
+        public PlanTelefonia() {
                 this.numeroCelular = "";
                 this.operadorCelular = "";
                 this.cantidadMinutos = 0;
@@ -37,6 +38,10 @@ public class PlanTelefonia {
                 return costoMinuto;
         }
 
+        public Double getCostoTotal() {
+                return costoTotal;
+        }
+
         public void setNumeroCelular(String numeroCelular) {
                 this.numeroCelular = numeroCelular;
         }
@@ -53,12 +58,18 @@ public class PlanTelefonia {
                 this.costoMinuto = costoMinuto;
         }
 
-        public Double calcularTotalPagar() {
+        public void calcularCostoTotal() {
                 if (operadorCelular.equals("Movilujo")) {
                         costoTotal = 0.5 * (cantidadMinutos * costoMinuto);
                 } else {
                         costoTotal = (double) (cantidadMinutos * costoMinuto);
                 }
-                return costoTotal;
+        }
+
+        public String toString() {
+                return "Teléfono celular: " + numeroCelular + "\nEmpresa operador: " + operadorCelular
+                                + "\nMinutos gastados: " + cantidadMinutos + "\nCosto minuto: " + costoMinuto
+                                + "\nCantidad a pagar: " + costoTotal;
+
         }
 }
