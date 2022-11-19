@@ -1,6 +1,7 @@
 package main;
 
 import model.Fecha;
+import model.FechaDetallada;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +25,9 @@ public class Main {
 
         miFecha.addDias(360);
         System.out.println(miFecha.toString());
+
+        FechaDetallada miFechaDetallada = new FechaDetallada(19, 11, 2022);
+        System.out.println(miFechaDetallada.toString());
+
     }
 }

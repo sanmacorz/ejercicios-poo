@@ -1,9 +1,9 @@
 package model;
 
 public class Fecha {
-        private int dia;
-        private int mes;
-        private int anio;
+        protected int dia;
+        protected int mes;
+        protected int anio;
 
         public Fecha(int dia, int mes, int anio) {
                 this.dia = dia;
