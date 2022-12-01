@@ -8,4 +8,5 @@ En un banco se tienen varios tipos de cuentas bancarias en las cuales es posible
 
 # Captura de pantalla
 
-![Screenshot1]()
+![Screenshot1](https://user-images.githubusercontent.com/27830167/205084850-1c92f568-14ca-4122-9656-85a36e99a29f.png)
+![Screenshot2](https://user-images.githubusercontent.com/27830167/205084843-4c0b6ee7-6ffc-4277-88b9-512b62f70a70.png)

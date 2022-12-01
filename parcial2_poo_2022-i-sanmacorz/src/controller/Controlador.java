@@ -32,7 +32,8 @@ public class Controlador implements ActionListener {
                 if (comando.equals("crearCuenta")) {
                         Double fondos = Double.valueOf(PanelEntrada.getTfFondos());
                         if (PanelEntrada.getCuenta().equals("Cuenta Corriente")) {
-                                banco.agregarCuenta(new CuentaCorriente(fondos));
+                                CuentaBancaria cuenta = new CuentaCorriente(fondos);
+                                banco.agregarCuenta(cuenta);
                         } else if (PanelEntrada.getCuenta().equals("Cuenta de Ahorros")) {
                                 banco.agregarCuenta(new CuentaAhorro(fondos));
                         } else if (PanelEntrada.getCuenta().equals("Cuenta de Libreta")) {
@@ -46,16 +47,16 @@ public class Controlador implements ActionListener {
                         miVentanaPrincipal.crearDialogoRetirar();
                         miVentanaPrincipal.miDialogoRetirar.agregarOyenteBoton(this);
                 } else if (comando.equals("depositarCuenta")) {
-                        // Sacar del combo box la cuenta de la que se va a depositar
+                        // miCuenta = cb.get
                         Integer cantidad = Integer
                                         .valueOf(miVentanaPrincipal.miDialogoDepositar.getCantidadDepositar());
-                        miCuenta.depositar(cantidad);
+                        // miCuenta.depositar(cantidad);
                         PanelSalida.mostrarResultados("Se ha depositado saldo de la cuenta!");
                 } else if (comando.equals("retirarCuenta")) {
-                        // Sacar del combo box la cuenta de la que se va a retirar
+                        // cuenta = cb.get
                         Integer cantidad = Integer
                                         .valueOf(miVentanaPrincipal.miDialogoDepositar.getCantidadDepositar());
-                        miCuenta.retirar(cantidad);
+                        // cuenta.retirar(cantidad);
                         PanelSalida.mostrarResultados("Se ha retirado saldo de la cuenta!");
                 } else if (comando.equals("borrarTexto")) {
                         view.PanelEntrada.borrarTf();

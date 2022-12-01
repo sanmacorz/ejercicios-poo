@@ -13,12 +13,12 @@ public class Banco {
                 this.cuentasBancarias = new ArrayList<>();
         }
 
-        public ArrayList<CuentaBancaria> getCuentasBancarias() {
-                return cuentasBancarias;
-        }
-
         public void agregarCuenta(CuentaBancaria cuenta) {
                 this.cuentasBancarias.add(cuenta);
+        }
+
+        public ArrayList<CuentaBancaria> getCuentasBancarias() {
+                return cuentasBancarias;
         }
 
         public void setCuentasBancarias(ArrayList<CuentaBancaria> cuentasBancarias) {
